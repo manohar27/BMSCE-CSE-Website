@@ -4,7 +4,6 @@ $password=$_POST['pass'];
 $dbhost = "db4free.net";
 $db= "bmsnews";
 $user = "mbmanohars";
-$pass = "manu123S";
 $comm = mysql_connect($dbhost,$user,$pass);
 if(!$comm){
  echo "Connection failed";
